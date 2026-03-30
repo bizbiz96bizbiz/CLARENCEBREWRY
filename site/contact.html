@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — The Old Clarence Brewery C.1881</title>
+  <meta name="description" content="Get in touch with The Old Clarence Brewery. Email us at stay@theoldclarencebrewery.com or use the enquiry form. Heritage accommodation in Maclean, NSW.">
+  <meta property="og:title" content="Contact — The Old Clarence Brewery C.1881">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="https://theoldclarencebrewery.com/wp-content/uploads/2024/04/cropped-icon-32x32.png" sizes="32x32">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://theoldclarencebrewery.com/wp-content/uploads/2023/10/calma.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav__logo">
+      The Old Clarence Brewery
+      <span>C.1881 · Maclean, NSW</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="history.html">History</a></li>
+      <li><a href="stay.html">Stay</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="explore.html">Explore</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://www.baybnb.com.au/maclean/the-old-clarence-brewery/b85c39?number_of_guests=1" target="_blank" rel="noopener" class="nav__reserve">Reserve</a></li>
+    </ul>
+    <button class="nav__hamburger" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Page Hero -->
+  <header class="page-hero">
+    <div class="page-hero__bg" style="background-image: url('assets/images/395705307_1021785652482038_6396745304258196618_n.jpg');" role="img" aria-label="The Old Clarence Brewery exterior"></div>
+    <div class="page-hero__overlay"></div>
+    <div class="container">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Get in Touch</p>
+        <h1 class="page-hero__title">Contact Us</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <p class="contact-info__eyebrow reveal">Say Hello</p>
+          <h2 class="contact-info__title reveal">We'd love to<br>hear from you</h2>
+          <p class="contact-info__text reveal">
+            If you'd like to make a reservation, visit our bookings page for availability. For all other enquiries — questions about the property, the history, accessibility, or planning your stay — send us an email and we'll aim to respond within 48 hours.
+          </p>
+
+          <div class="contact-detail reveal">
+            <span class="contact-detail__label">Email</span>
+            <a href="mailto:stay@theoldclarencebrewery.com" class="contact-detail__value" style="color:var(--brown-deep);">stay@theoldclarencebrewery.com</a>
+          </div>
+
+          <div class="contact-detail reveal">
+            <span class="contact-detail__label">Location</span>
+            <span class="contact-detail__value">Maclean, New South Wales, Australia</span>
+          </div>
+
+          <div class="contact-detail reveal">
+            <span class="contact-detail__label">Booking</span>
+            <span class="contact-detail__value">Minimum 2-night stay · Via BayBnB</span>
+          </div>
+
+          <div class="reveal" style="margin-top:2rem;">
+            <a href="https://www.baybnb.com.au/maclean/the-old-clarence-brewery/b85c39?number_of_guests=1" target="_blank" rel="noopener" class="btn btn--solid">Check Availability</a>
+          </div>
+        </div>
+
+        <form
+          class="contact-form reveal"
+          action="mailto:stay@theoldclarencebrewery.com"
+          method="POST"
+          enctype="text/plain"
+          aria-label="Contact enquiry form"
+        >
+          <!-- NOTE: Replace action with your form handler endpoint (e.g. Formspree, Netlify Forms) -->
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required placeholder="First and last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required placeholder="your@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="dates">Dates in Mind (optional)</label>
+            <input type="text" id="dates" name="dates" placeholder="e.g. 14–16 March 2025">
+          </div>
+
+          <div class="form-group">
+            <label for="guests">Number of Guests (optional)</label>
+            <input type="text" id="guests" name="guests" placeholder="e.g. 2">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us about your stay, ask any questions…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--solid" style="width:100%; text-align:center;">Send Enquiry</button>
+
+          <p style="margin-top:0.75rem; font-size:0.75rem; color:var(--text-mid); letter-spacing:0.05em;">
+            We aim to respond within 48 hours.
+          </p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Map placeholder -->
+  <section style="background:var(--brown-deep); padding:5rem 0;">
+    <div class="container" style="text-align:center;">
+      <p class="social-proof__eyebrow reveal">Find Us</p>
+      <h2 style="font-family:var(--font-display); font-size:clamp(1.8rem,3.5vw,2.5rem); font-weight:400; color:var(--white); margin-bottom:2rem;" class="reveal">Maclean, NSW · Clarence River Valley</h2>
+      <!-- Map embed placeholder — replace with Google Maps iframe -->
+      <div style="width:100%; max-width:800px; margin:0 auto; height:350px; background:rgba(255,255,255,0.05); border:1px dashed rgba(209,193,193,0.2); display:flex; align-items:center; justify-content:center; color:rgba(209,193,193,0.4); font-size:0.8rem; letter-spacing:0.15em; text-transform:uppercase;" class="reveal">
+        <!-- MAP EMBED HERE — replace with Google Maps iframe -->
+        Map · Maclean, NSW
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <p class="footer__brand-name">The Old Clarence Brewery</p>
+          <p class="footer__brand-sub">C.1881 · Maclean, New South Wales</p>
+          <p class="footer__brand-desc">A National Trust recognised heritage building — available for boutique accommodation stays.</p>
+        </div>
+        <div>
+          <p class="footer__col-heading">Navigate</p>
+          <ul class="footer__links">
+            <li><a href="history.html">Our History</a></li>
+            <li><a href="stay.html">Your Stay</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="explore.html">Explore the Region</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-heading">Book & Enquire</p>
+          <p class="footer__email"><a href="mailto:stay@theoldclarencebrewery.com">stay@theoldclarencebrewery.com</a></p>
+          <a href="https://www.baybnb.com.au/maclean/the-old-clarence-brewery/b85c39?number_of_guests=1" target="_blank" rel="noopener" class="btn btn--blush" style="margin-top:1.25rem; font-size:0.7rem;">Check Availability</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2024 The Old Clarence Brewery C.1881 · Maclean, NSW, Australia</p>
+        <ul class="footer__bottom-links">
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

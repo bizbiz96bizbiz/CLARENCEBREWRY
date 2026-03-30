@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(curl -s \"https://theoldclarencebrewery.com/\")",
+      "Bash(curl -s \"https://github.com/nextlevelbuilder/ui-ux-pro-max-skill\")",
+      "Read(//Users/hunterhunter/.npm-global/bin/**)",
+      "Bash(npx uipro:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
