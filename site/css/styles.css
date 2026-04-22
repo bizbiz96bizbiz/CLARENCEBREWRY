@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'Calma';
-  src: url('https://theoldclarencebrewery.com/wp-content/uploads/2023/10/calma.otf') format('opentype');
+  src: url('../assets/fonts/calma.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -224,7 +224,7 @@ button:focus:not(:focus-visible) {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url('https://theoldclarencebrewery.com/wp-content/uploads/2023/10/384483857_330538876200203_1073632404024900708_n.jpg');
+  background-image: url('../assets/images/384483857_330538876200203_1073632404024900708_n.jpg');
   background-size: cover;
   background-position: center 30%;
   will-change: transform;
@@ -665,7 +665,7 @@ button:focus:not(:focus-visible) {
   color: var(--blush);
   opacity: 0.18;
   position: absolute;
-  top: 1.5rem;
+  top: 4rem;
   left: -0.25rem;
   pointer-events: none;
   user-select: none;
@@ -708,7 +708,7 @@ button:focus:not(:focus-visible) {
 .explore-teaser__bg {
   position: absolute;
   inset: 0;
-  background-image: url('https://theoldclarencebrewery.com/wp-content/uploads/2023/10/b9c4ad4f651f65084d663bd4a17e23e3-1.jpeg');
+  background-image: url('../assets/images/b9c4ad4f651f65084d663bd4a17e23e3-1.jpeg');
   background-size: cover;
   background-position: center;
   will-change: transform;

@@ -7,11 +7,11 @@
   <meta name="description" content="Get in touch with The Old Clarence Brewery. Email us at stay@theoldclarencebrewery.com or use the enquiry form. Heritage accommodation in Maclean, NSW.">
   <meta property="og:title" content="Contact — The Old Clarence Brewery C.1881">
   <meta property="og:type" content="website">
-  <link rel="icon" href="https://theoldclarencebrewery.com/wp-content/uploads/2024/04/cropped-icon-32x32.png" sizes="32x32">
+  <link rel="icon" href="assets/favicon-32x32.png" sizes="32x32">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-  <link rel="preload" href="https://theoldclarencebrewery.com/wp-content/uploads/2023/10/calma.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/fonts/calma.otf" as="font" type="font/otf" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -80,12 +80,11 @@
 
         <form
           class="contact-form reveal"
-          action="mailto:stay@theoldclarencebrewery.com"
+          action="https://formspree.io/f/maqapvvr"
           method="POST"
-          enctype="text/plain"
           aria-label="Contact enquiry form"
         >
-          <!-- NOTE: Replace action with your form handler endpoint (e.g. Formspree, Netlify Forms) -->
+          <input type="hidden" name="_subject" value="New enquiry — The Old Clarence Brewery">
           <div class="form-group">
             <label for="name">Your Name</label>
             <input type="text" id="name" name="name" autocomplete="name" required placeholder="First and last name">
@@ -127,10 +126,17 @@
     <div class="container" style="text-align:center;">
       <p class="social-proof__eyebrow reveal">Find Us</p>
       <h2 style="font-family:var(--font-display); font-size:clamp(1.8rem,3.5vw,2.5rem); font-weight:400; color:var(--white); margin-bottom:2rem;" class="reveal">Maclean, NSW · Clarence River Valley</h2>
-      <!-- Map embed placeholder — replace with Google Maps iframe -->
-      <div style="width:100%; max-width:800px; margin:0 auto; height:350px; background:rgba(255,255,255,0.05); border:1px dashed rgba(209,193,193,0.2); display:flex; align-items:center; justify-content:center; color:rgba(209,193,193,0.4); font-size:0.8rem; letter-spacing:0.15em; text-transform:uppercase;" class="reveal">
-        <!-- MAP EMBED HERE — replace with Google Maps iframe -->
-        Map · Maclean, NSW
+      <div style="width:100%; max-width:800px; margin:0 auto; border-radius:2px; overflow:hidden;" class="reveal">
+        <iframe
+          src="https://maps.google.com/maps?q=The+Old+Clarence+Brewery+Maclean+NSW+Australia&output=embed&z=15"
+          width="100%"
+          height="350"
+          style="border:0; display:block;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="The Old Clarence Brewery location — Maclean, NSW"
+        ></iframe>
       </div>
     </div>
   </section>
@@ -160,7 +166,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <p class="footer__copy">© 2024 The Old Clarence Brewery C.1881 · Maclean, NSW, Australia</p>
+        <p class="footer__copy">© 2026 The Old Clarence Brewery C.1881 · Maclean, NSW, Australia</p>
         <ul class="footer__bottom-links">
           <li><a href="terms.html">Terms</a></li>
           <li><a href="privacy.html">Privacy</a></li>
