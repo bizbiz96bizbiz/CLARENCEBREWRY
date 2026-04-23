@@ -631,17 +631,29 @@ button:focus:not(:focus-visible) {
   position: relative;
 }
 
-.testimonial__mark {
+.testimonial__mark { display: none; }
+
+.testimonial__quote::before,
+.testimonial__quote::after {
   font-family: var(--font-display);
-  font-size: 5rem;
-  line-height: 1;
+  font-size: 3rem;
+  line-height: 0.7;
+  display: block;
   color: var(--blush);
-  opacity: 0.18;
-  position: absolute;
-  top: 4rem;
-  left: -0.25rem;
+  opacity: 0.5;
   pointer-events: none;
   user-select: none;
+}
+
+.testimonial__quote::before {
+  content: '\201C';
+  margin-bottom: 0.5rem;
+}
+
+.testimonial__quote::after {
+  content: '\201D';
+  margin-top: 0.5rem;
+  text-align: right;
 }
 
 .testimonial__stars {

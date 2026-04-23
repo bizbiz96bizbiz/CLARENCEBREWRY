@@ -68,17 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Heritage strip counter animation ─────────────────────
   initCounters();
 
-  // ── Inject quote marks into testimonials ─────────────────
-  document.querySelectorAll('.testimonial').forEach(t => {
-    if (!t.querySelector('.testimonial__mark')) {
-      const mark = document.createElement('span');
-      mark.className = 'testimonial__mark';
-      mark.setAttribute('aria-hidden', 'true');
-      mark.textContent = '\u201C';
-      t.insertBefore(mark, t.firstChild);
-    }
-  });
-
 });
 
 // ── Inject scroll progress bar ────────────────────────────
