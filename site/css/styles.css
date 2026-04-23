@@ -391,6 +391,7 @@ button:focus:not(:focus-visible) {
 .brand-statement__text em {
   font-style: italic;
   color: var(--brown-warm);
+  white-space: nowrap;
 }
 
 /* ── Heritage Strip ───────────────────────────────────────── */
