@@ -385,6 +385,7 @@ button:focus:not(:focus-visible) {
   max-width: 780px;
   margin: 0 auto;
   letter-spacing: 0.01em;
+  text-wrap: balance;
 }
 
 .brand-statement__text em {
