@@ -636,24 +636,21 @@ button:focus:not(:focus-visible) {
 .testimonial__quote::before,
 .testimonial__quote::after {
   font-family: var(--font-display);
-  font-size: 3rem;
-  line-height: 0.7;
-  display: block;
+  font-size: 1.4rem;
+  display: inline;
   color: var(--blush);
-  opacity: 0.5;
-  pointer-events: none;
-  user-select: none;
+  opacity: 0.7;
+  vertical-align: 0.05em;
 }
 
 .testimonial__quote::before {
   content: '\201C';
-  margin-bottom: 0.5rem;
+  margin-right: 0.05em;
 }
 
 .testimonial__quote::after {
   content: '\201D';
-  margin-top: 0.5rem;
-  text-align: right;
+  margin-left: 0.05em;
 }
 
 .testimonial__stars {
