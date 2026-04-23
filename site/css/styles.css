@@ -365,33 +365,6 @@ button:focus:not(:focus-visible) {
   justify-content: center;
 }
 
-.asset-placeholder {
-  width: 800px;
-  max-width: 90vw;
-  height: 500px;
-  border: 1px dashed rgba(209,193,193,0.3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgba(209,193,193,0.4);
-  font-family: var(--font-body);
-  text-align: center;
-  gap: 0.75rem;
-}
-
-.asset-placeholder p {
-  font-size: 0.8rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-.asset-placeholder small {
-  font-size: 0.7rem;
-  opacity: 0.6;
-}
-/* NANO BANANA ASSET HERE — replace .asset-placeholder with <img> or <video> */
-
 /* ── Brand Statement ──────────────────────────────────────── */
 .brand-statement {
   background: var(--cream);
@@ -828,6 +801,30 @@ footer {
   line-height: 1.7;
 }
 
+.footer__social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.4);
+  transition: color 0.35s var(--ease-silk);
+}
+
+.footer__social-link:hover {
+  color: var(--blush);
+}
+
+.footer__social-link svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
 .footer__col-heading {
   font-size: 0.65rem;
   letter-spacing: 0.3em;
@@ -1213,6 +1210,32 @@ footer {
   font-size: 1rem;
   font-weight: 300;
   color: var(--brown-deep);
+}
+
+.contact-social {
+  display: flex;
+  gap: 0.85rem;
+  margin-top: 0.15rem;
+}
+
+.contact-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brown-deep);
+  opacity: 0.55;
+  transition: opacity 0.3s var(--ease-silk), color 0.3s var(--ease-silk);
+}
+
+.contact-social-link:hover {
+  color: var(--brown-warm);
+  opacity: 1;
+}
+
+.contact-social-link svg {
+  width: 24px;
+  height: 24px;
+  display: block;
 }
 
 .contact-form {
